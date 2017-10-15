@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "version": "0.1",
+  "name": "WW-Calculator",
+  "content_scripts": [
+      {
+        "matches": ["http://www.myfitnesspal.com/*"],
+        "js": ["script.js"]
+      }
+  ]
+}
